@@ -9,29 +9,18 @@ public class Galleros_12
 {
 public static void main(String[] args) {
         
-        int[] arr = { 5, 2, 7, 5, 3, 5, 8, 5 };
-        int target = 5;
+        iint[] arr = {7, 2, 7, 4, 7, 5, 1};
+        int valueToCheck = 7;
         int count = 0;
 
-        System.out.print("Array: ");
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + " ");
-        }
-        System.out.println();
-
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] == target) {
-                count++;
-            }
-            if (count >= 3) {
-                break;
-            }
+         for (int n : arr) {
+             if (n == valueToCheck) count++;
         }
 
         if (count >= 3) {
-            System.out.println(target + " appears at least 3 times in the array.");
+            // System.out.println(valueToCheck + " appears at least 3 times.");
         } else {
-            System.out.println(target + " appears less than 3 times in the array.");
-        }
+             System.out.println(valueToCheck + " does not appear at least 3 times.");
+         }
     }
 }
