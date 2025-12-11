@@ -9,7 +9,7 @@ public class Galleros_4
 {
 public static void main(String[] args) {
 
-        int[] arr = {10, 3, 25, -5, 0};
+        int[] arr = {10, 3, 30, 9, 7};
         int min = arr[0];
         int max = arr[0];
 
