@@ -10,13 +10,13 @@ import java.util.Scanner;
 public class Galleros1
 {
    public static void main(String [] args){
-       // Scanner sc = new Scanner(System.in);     1
-       // int num = 0;
+       Scanner sc = new Scanner(System.in);     1
+       int num = 0;
        
-       // while(num < 1 || num > 100){
-           // System.out.print("Enter a number between 1 to 100: ");
-           // num = sc.nextInt();
-       // }
-       // System.out.println("You entered: " + num);
+       while(num < 1 || num > 100){
+   System.out.print("Enter a number between 1 to 100: ");
+            num = sc.nextInt();
+       }
+    System.out.println("You entered: " + num);
    }
 }
