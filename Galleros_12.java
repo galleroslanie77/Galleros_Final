@@ -18,7 +18,7 @@ public static void main(String[] args) {
         }
 
         if (count >= 3) {
-            // System.out.println(valueToCheck + " appears at least 3 times.");
+            System.out.println(valueToCheck + " appears at least 3 times.");
         } else {
              System.out.println(valueToCheck + " does not appear at least 3 times.");
          }
